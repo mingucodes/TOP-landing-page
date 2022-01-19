@@ -1,0 +1,29 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.header-section {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 50px;
+}
+
+.header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 50px;
+  gap: 20px;
+  align-items: center;
+}
