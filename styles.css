@@ -152,3 +152,73 @@ button:hover {
   font-weight: 900;
   padding-bottom: 45px;
 }
+
+.cto-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cto-container {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  background-color: #3882f6;
+  border-radius: 6px;
+
+  width: 550px;
+  height: 80px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cto-left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 5px;
+
+  color: #f9faf8;
+}
+
+.cto-text {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.cto-text,
+#cto-desc {
+  padding-left: 30px;
+}
+
+.cto-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.signup-button {
+  width: 90px;
+  height: 30px;
+  background-color: #3882f6;
+  border: white solid 1px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  margin-top: 50px;
+  height: 60px;
+  font-size: 12px;
+}
