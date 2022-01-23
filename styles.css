@@ -86,7 +86,7 @@ button:hover {
   justify-content: center;
   align-items: center;
 
-  background-image: url(../images/pingu-pinga.jpg);
+  background-image: url(./images/pingu-pinga.jpg);
   background-position-x: -5px;
 
   border-radius: 36px;
@@ -148,21 +148,21 @@ button:hover {
 }
 
 #img-playing {
-  background-image: url(../images/playing.gif);
+  background-image: url(./images/playing.gif);
   background-position-x: -20px;
 }
 #img-kiss {
-  background-image: url(../images/kiss-mom.gif);
+  background-image: url(./images/kiss-mom.gif);
   background-position-x: -15px;
 }
 
 #img-vibin {
-  background-image: url(../images/vibin.gif);
+  background-image: url(./images/vibin.gif);
   background-position-x: -25px;
 }
 
 #img-panic {
-  background-image: url(../images/panic.gif);
+  background-image: url(./images/panic.gif);
   background-position-x: -15px;
 }
 
