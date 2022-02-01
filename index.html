@@ -5,106 +5,87 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
   <title>pingu's day</title>
 </head>
 <body>
-
-  <div class="header-section">
-    
-    <h1 class="header-logo">pingu</h1>
-
-    <ul class="header-links">
-      <li>ping</li>
-      <li>pang</li>
-      <li>pong</li>
-    </ul>
-
-  </div>
-
-  <div class="main-section">  
-
-    <div class="main-section-left">
-
-      <h1 class="main-text">pingu's daily activities</h1>
-
-      <p class="main-subtext">curious about pingu's day? subscribe to daily newsletters to learn more about his daily life!</p>
   
-      <button class="main-button">sign up</button>
+  <header class="bg-red">
+    <div class="container header">
+      <h1 class="logo">pingu</h1>
+      <ul class="links">
+        <li>ping</li>
+        <li>pang</li>
+        <li>pong</li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="bg-blue">
+    <div class="container main">
+      
+      <div class="main-left">
+        <h3 class="main-title">pingu's daily activities</h3>
+        <p class="main-desc">curious about pingu's day? subscribe to daily newsletters to learn more about his daily life!</p>
+        <button class="main-bttn text-center">subscribe</button>
+      </div>
+
+      <div class="main-right">
+        <img class="main-image" src="./images/pingu-pinga.jpg" alt="picture of pingu and pinga together">
+      </div>
 
     </div>
+  </section>
 
-    <div class="main-section-right">
-      <div class="image-placeholder"></div>
-    </div>
+  <section class="bg-lightgrey">
+    <div class="container info-section">
 
-  </div>
-
-  <div class="info-section">
-    
-    <div class="info-heading">sneak peek into his daily life ~</div>
-
-    <div class="info-images">
+      <h2 class="info-title">sneak peek into his daily life ~</h2>
 
       <div class="img-section">
-        <div class="image-square" id="img-playing">
-        </div>
+
+        <div class="image-square"></div>
         <p class="image-desc">play with pinga</p>
-      </div>
 
-      <div class="img-section">
-        <div class="image-square" id="img-kiss"></div>
+        <div class="image-square"></div>
         <p class="image-desc">kiss mum</p>
-      </div>
 
-      <div class="img-section">
-        <div class="image-square" id="img-vibin"></div>
+        <div class="image-square"></div>
         <p class="image-desc">vibin'</p>
-      </div>
 
-      <div class="img-section">
-        <div class="image-square" id="img-panic"></div>
+        <div class="image-square"></div>
         <p class="image-desc">panic</p>
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="quote-section">
-
-    <div class="quote">
-      noot noot.
-    </div>
-
-    <div class="quote-by">pingu, pinga's brother</div>
-
-  </div>
-
-  <div class="cto-section">
-
-    <div class="cto-container">
-
-      <div class="cto-left">
-
-        <div class="cto-text">what are you waiting for?</div>
-
-        <div id="cto-desc">sign up to get exclusive daily content from pingu!</div>
-
-      </div>
-
-      <div class="cto-right">
-
-        <button class="signup-button">sign up</button>
 
       </div>
 
     </div>
+  </section>
 
-  </div>
+  <section class="bg-lightgrey">
+    <div class="quote-section">
 
-  <div class="footer">
-    copyright © mingucodes
-  </div>
+      <h3 class="quote">noot noot.</h3>
+      <p class="quote-by">pingu, pinga's brother</p>
+    </div>
+  </section>
+
+  <section class="bg-yellow">
+
+    <div class="container cto">
+      <div class="cto-desc">
+        <h4>what are you waiting for?</h4>
+        <p>subscribe to get exclusive daily content from pingu !</p>
+      </div>
+      <button class="bottom-bttn text-center">subscribe</button>
+    </div>
+
+  </section>
+
+  <footer class="bg-red text-center">
+    <p>copyright © mingucodes</p>
+  </footer>
 
 </body>
 </html>
