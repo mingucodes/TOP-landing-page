@@ -32,6 +32,7 @@ p {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 header {
@@ -41,7 +42,9 @@ header {
 .logo,
 .main-title,
 .info-title,
-.quote-by {
+.quote-by,
+.image-desc,
+.cto-desc {
   font-style: italic;
 }
 
@@ -87,7 +90,7 @@ footer {
 }
 
 .container,
-.img-section {
+.info-images {
   display: flex;
 }
 
@@ -111,6 +114,11 @@ footer {
   gap: 0.5em;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .main-title {
   font-size: 2rem;
 }
@@ -122,18 +130,25 @@ footer {
 
 .main-image {
   width: 300px;
-  border-style: dotted;
-  padding: 0.1rem;
+  border: solid 2px #fff;
 }
 
 .main-bttn {
+  background-color: var(--clr-blue);
+}
+
+.main-bttn,
+.bottom-bttn {
   margin-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
 
   border: 2px solid white;
-  background-color: var(--clr-blue);
   color: var(--clr-white);
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .info-section {
@@ -142,14 +157,98 @@ footer {
   gap: 1rem;
 }
 
+.info-title {
+  margin-top: 10px;
+}
+
+.info-images {
+  margin-top: 20px;
+  gap: 3.5em;
+}
+
 .image-section {
-  display: flex;
+  flex-direction: column;
+}
+
+.image-square {
+  width: 200px;
+  height: 200px;
+  border: #fff solid 3px;
+}
+
+.image-desc {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* images */
+#img-playing,
+#img-kiss,
+#img-vibin,
+#img-panic,
+.image-placeholder {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-playing {
+  background-image: url(./images/playing.gif);
+  background-position-x: -35px;
+}
+#img-kiss {
+  background-image: url(./images/kiss-mom.gif);
+  background-position-x: -15px;
+}
+
+#img-vibin {
+  background-image: url(./images/vibin.gif);
+  background-position-x: -35px;
+}
+
+#img-panic {
+  background-image: url(./images/panic.gif);
+  background-position-x: -30px;
 }
 
 .quote-section {
   text-align: center;
+  padding-bottom: 30px;
 }
 
-.cto {
+.cto-section {
+  margin-top: -100px;
+  display: flex;
   justify-content: center;
+}
+
+.cto-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.cto-left,
+.cto-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cto-left {
+  padding-left: 30px;
+}
+
+.cto-right {
+  padding-right: 30px;
+}
+
+.bottom-bttn {
+  background-color: var(--clr-yellow);
+}
+
+footer > a {
+  font-size: 1rem;
 }
