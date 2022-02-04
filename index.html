@@ -5,105 +5,103 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+  <title>pingu's day</title>
 </head>
 <body>
-
-  <div class="header-section">
-    
-    <h1 class="header-logo">Header Logo</h1>
-
-    <ul class="header-links">
-      <li>header link one</li>
-      <li>header link two</li>
-      <li>header link three</li>
-    </ul>
-
-  </div>
-
-  <div class="main-section">  
-
-    <div class="main-section-left">
-
-      <h1 class="main-text">This website is awesome</h1>
-
-      <p class="main-subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
   
-      <button class="main-button">Sign up</button>
-
+  <header class="bg-red">
+    <div class="container header">
+      <h1 class="logo">pingu</h1>
+      <ul class="links">
+        <a href="#">
+          <li>ping</li>
+        </a>
+        <a href="#">
+          <li>pang</li>
+        </a>
+        <a href="#">
+          <li>pong</li>
+        </a>
+      </ul>
     </div>
+  </header>
 
-    <div class="main-section-right">
-      <div class="image-placeholder">this is a placeholder for an image</div>
-    </div>
-
-  </div>
-
-  <div class="info-section">
-    
-    <div class="info-heading">Some random information.</div>
-
-    <div class="info-images">
-
-      <div class="img-section">
-        <div class="image-square"></div>
-        <p class="image-desc">this is some subtext under and illustration or image</p>
+  <section class="bg-blue">
+    <div class="container main">
+      
+      <div class="main-left">
+        <h3 class="main-title">pingu's daily activities</h3>
+        <p class="main-desc">curious about pingu's day? subscribe to daily newsletters to learn more about his daily life!</p>
+        <button class="main-bttn text-center">subscribe</button>
       </div>
 
-      <div class="img-section">
-        <div class="image-square"></div>
-        <p class="image-desc">this is some subtext under and illustration or image</p>
-      </div>
-
-      <div class="img-section">
-        <div class="image-square"></div>
-        <p class="image-desc">this is some subtext under and illustration or image</p>
-      </div>
-
-      <div class="img-section">
-        <div class="image-square"></div>
-        <p class="image-desc">this is some subtext under and illustration or image</p>
+      <div class="main-right">
+        <img class="main-image" src="./images/pingu-pinga.jpg" alt="picture of pingu and pinga together">
       </div>
 
     </div>
+  </section>
 
-  </div>
+  <section class="bg-lightgrey">
+    <div class="container info-section">
 
-  <div class="quote-section">
+      <h2 class="info-title">sneak peek into his daily life ~</h2>
 
-    <div class="quote">
-      This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+      <div class="info-images">
+
+        <div class="img-section">
+          <div class="image-square" id="img-playing"></div>
+          <p class="image-desc">play with pinga</p>
+        </div>
+
+        <div class="img-section">
+          <div class="image-square" id="img-kiss"></div>
+          <p class="image-desc">kiss mum</p>
+        </div>
+
+        <div class="img-section">
+          <div class="image-square" id="img-vibin"></div>
+          <p class="image-desc">vibin'</p>
+        </div>
+
+        <div class="img-section">
+          <div class="image-square" id="img-panic"></div>
+          <p class="image-desc">panic</p>
+        </div>
+
+      </div>
+
     </div>
+  </section>
 
-    <div class="quote-by">-Thor, God of Thunder</div>
+  <section class="bg-lightgrey">
+    <div class="quote-section">
 
-  </div>
+      <h3 class="quote">noot noot.</h3>
+      <p class="quote-by">pingu, pinga's brother</p>
+    </div>
+  </section>
 
-  <div class="cto-section">
+  <section class="cto-section">
 
-    <div class="cto-container">
-
+    <div class="bg-yellow cto-container">
       <div class="cto-left">
-
-        <div class="cto-text">Call to action! It's time!</div>
-
-        <div id="cto-desc">Sign up for our product by clicking that button right over there!</div>
-
+        <div class="cto-desc">
+          <h4>what are you waiting for?</h4>
+          <p>subscribe to get exclusive daily content from pingu!</p>
+        </div>
       </div>
 
-      <div class="cto-right">
-
-        <button class="signup-button">Sign up</button>
-
-      </div>
-
+      <div class="cto-right"><button class="bottom-bttn text-center">subscribe</button></div>
     </div>
+  </section>
 
-  </div>
-
-  <div class="footer">
-    Copyright © The Odin Project 2022
-  </div>
+  <footer class="bg-red text-center">
+    <a href="https://github.com/mingucodes/TOP-landing-page">copyright © mingucodes</a>
+  </footer>
 
 </body>
 </html>
